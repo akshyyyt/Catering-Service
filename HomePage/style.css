@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0d202d;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 40px;
+}
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 70px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.header-logo {
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.header-icon {
+    margin-right: 20px;
+}
