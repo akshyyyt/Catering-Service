@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <title>Eventicity - Catering & Event Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="header-logo">The Royal Curry</div>
-
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-
-        <div class="header-icon">
-            <a href="#"><img src="./Assets/cart.svg" alt="Search" width="60px" height="60px"></a>
-            <a href="#"><img src="./Assets/search.svg" alt="Search" width="60px" height="60px"></a>
-            <a href="#"><img src="./Assets/option.svg" alt="info" width="60px" height="60px"></a>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Eventicity</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#book" class="btn btn-primary">Book an Event</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </div>
     </header>
-    <main>
-        <div class="banner" id="banner-slogan">
-            <p>We create culinary dishes to your taste</p>
+    <div class="mobile-menu-overlay">
+        <button class="close-menu"><i class="fas fa-times"></i></button>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="sub-heading">The Art of Serving</span>
+                <h1>Satisfying your taste, creating memories one bite at a time</h1>
+                <p>We provide full-service catering for any event, large or small. We understand your needs and we will
+                    make your event a success.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
         </div>
-        <div class="banner" id="banner-photo">
-            <img src="" alt="main-photo"/>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                        alt="About Eventicity">
+                    <div class="experience-badge">
+                        <span class="years">25</span>
+                        <span class="text">Years of Experience</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="sub-heading">About Us</span>
+                    <h2>We create delicious memories</h2>
+                    <p class="lead">Eventicity is a full-service catering agency. We have been serving the city for over
+                        25 years.</p>
+                    <p>Our team of professional chefs and event planners are dedicated to making your event a success.
+                        We use only the freshest ingredients and create custom menus to suit your taste and budget.
+                        Whether it's a wedding, corporate event, or private party, we have you covered.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Gourmet Cuisine</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-glass-cheers"></i>
+                            <h4>Professional Service</h4>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
         </div>
-        <div class="banner" id="banner-more">
-        </div>
-    </main>
-</body>
-</html>
+    </section>
