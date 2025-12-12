@@ -293,3 +293,82 @@ img {
         max-width: 250px;
     }
 }
+.about-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-image {
+    flex: 1;
+    position: relative;
+}
+
+.about-image img {
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.experience-badge .years {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: var(--font-heading);
+}
+
+.experience-badge .text {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-text .lead {
+    font-size: 20px;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.about-text p {
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.about-features {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
