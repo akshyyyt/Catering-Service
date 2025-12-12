@@ -30,8 +30,3 @@ Eventicity showcases premium catering services, gallery, testimonials, and event
 | 🎭 Font Awesome | Icons |
 
 ---
-
-## 📸 Screenshots (Add Later)
-
-Create a folder named `/screenshots` and include your preview images.
-
